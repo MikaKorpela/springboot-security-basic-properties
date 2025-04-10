@@ -1,30 +1,12 @@
-# README #
+# springboot-security-properties #
 
-This README would normally document whatever steps are necessary to get your application up and
-running.
+The ```spring-boot-starter-security``` dependency enables the authentication and authorization in all end-points.
 
-### What is this repository for? ###
+The following properties override the user creation default security configuration:
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+```
+spring.security.user.name=donald
+spring.security.user.password=duck
+```
 
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+The default security configuration does not include any settings for authorization.
