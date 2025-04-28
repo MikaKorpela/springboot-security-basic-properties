@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: springboot-security-basic-properties
+  security:
+    user:
+      name: donald
+      password: duck
